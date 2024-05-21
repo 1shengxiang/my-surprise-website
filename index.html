@@ -4,66 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>521 驚喜</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f0f8ff;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            padding: 50px;
-        }
-        h1 {
-            font-size: 3em;
-            color: #ff69b4;
-        }
-        .heart {
-            width: 200px;
-            height: 200px;
-            background-color: #ff69b4;
-            position: relative;
-            margin: 0 auto;
-            top: 50px;
-            transform: rotate(-45deg);
-        }
-        .heart::before, .heart::after {
-            content: "";
-            width: 200px;
-            height: 200px;
-            background-color: #ff69b4;
-            border-radius: 50%;
-            position: absolute;
-        }
-        .heart::before {
-            top: -100px;
-            left: 0;
-        }
-        .heart::after {
-            left: 100px;
-            top: 0;
-        }
-        .message {
-            font-size: 1.5em;
-            color: #333;
-            margin-top: 20px;
-        }
-        .photo {
-            width: 80%;
-            max-width: 600px;
-            margin-top: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>521 我愛妳！</h1>
-        <div class="heart"></div>
-        <div class="message">親愛的老婆，謝謝妳的愛與陪伴。</div>
-        <img src="family_photo.jpg" alt="我們的合照" class="photo">
+        <header>
+            <h1>521 我愛妳！</h1>
+        </header>
+        <section class="content">
+            <div class="heart"></div>
+            <div class="message">
+                <p>親愛的老婆，謝謝妳的愛與陪伴。</p>
+            </div>
+            <img src="family_photo.jpg" alt="我們的合照" class="photo">
+        </section>
+        <footer>
+            <p>永遠愛你的老公</p>
+        </footer>
     </div>
 </body>
 </html>
